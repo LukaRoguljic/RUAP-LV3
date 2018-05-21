@@ -1,17 +1,12 @@
-<?php
- /*$host = "ruapdbserver.mysql.database.azure.com";
- $user = "ruapUser@ruapdbserver";
- $pwd = "Ruap1234";
- $db = "ruapdb";*/
- 
- $host = "lroguljic-mysqldbserver.mysql.database.azure.com";
+<?php 
+$host ="lroguljic-mysqldbserver.mysql.database.azure.com";
 $user = "lukaroguljic@lroguljic-mysqldbserver";
-$pwd = "blizzard11!";
+$pwd = "blizzard11";
 $db = "mysqldatabase27168";
  // $host = "127.0.0.1:52932";
  // $user = "azure";
  // $pwd = "6#vWHD_$";
- // $db = "localdb";
+ // $b = "localdb";
  $conn = mysqli_connect($host,$user,$pwd);
  // Check connection
  if (mysqli_connect_errno())
