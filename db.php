@@ -16,14 +16,14 @@ $db = "mysqldatabase21981";
  else {
  echo 'Connected successfully';
  }
- $sql = 'CREATE Database ruapdb1';
+ $sql = 'CREATE Database ruapdb123';
  if ($conn->query($sql) === TRUE) {
  echo "Database created successfully";
  } else {
  echo "Error creating database: " . $conn->error;
  }
  mysqli_select_db($conn,$db);
- $sql_create = "CREATE TABLE registration_tbll(id INT NOT NULL
+ $sql_create = "CREATE TABLE registration_tbl123(id INT NOT NULL
  AUTO_INCREMENT, PRIMARY KEY(id), name VARCHAR(30), email
  VARCHAR(30), date DATE);";
  if ($conn->query($sql_create) === TRUE) {
