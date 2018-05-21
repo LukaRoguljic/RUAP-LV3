@@ -1,7 +1,7 @@
 <?php 
 $host ="lroguljic-mysqldbserver.mysql.database.azure.com";
 $user = "lukaroguljic@lroguljic-mysqldbserver";
-$pwd = "Blizzard11!";
+$pwd = "blizzard11!";
 $db = "mysqldatabase27168";
  // $host = "127.0.0.1:52932";
  // $user = "azure";
