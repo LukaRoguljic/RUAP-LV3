@@ -61,8 +61,8 @@ register.</p>
 //earlier from the Azure Portal. $host = "value of Data Source";
 $host = "lroguljic-mysqldbserver.mysql.database.azure.com";
 $user = "lukaroguljic@lroguljic-mysqldbserver";
-$pwd = "blizzard11!";
-$db = "lukaroguljic";
+$pwd = "Ruap12334.";
+$db = "mysqldatabase21981";
 
 //$host = "localhost";
 //$user = "lroguljic";
