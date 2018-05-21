@@ -23,7 +23,7 @@ $db = "mysqldatabase21981";
  echo "Error creating database: " . $conn->error;
  }
  mysqli_select_db($conn,$db);
- $sql_create = "CREATE TABLE registration_tbl(id INT NOT NULL
+ $sql_create = "CREATE TABLE registration_tbll(id INT NOT NULL
  AUTO_INCREMENT, PRIMARY KEY(id), name VARCHAR(30), email
  VARCHAR(30), date DATE);";
  if ($conn->query($sql_create) === TRUE) {
